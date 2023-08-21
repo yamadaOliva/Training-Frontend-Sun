@@ -56,7 +56,17 @@ header {
   height: 100px;
   margin-left: auto;
 }
-
+.menu_item:first-child::after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  background: rgb(192, 17, 17);
+  transform: translateY(10px);
+  transition: all 3s linear;
+}
 .menu_item {
   display: flex;
   align-items: center;
