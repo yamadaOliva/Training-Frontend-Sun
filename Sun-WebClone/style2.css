@@ -1,0 +1,108 @@
+.body_content_temp4 {
+  position: relative;
+}
+.body_content_temp4_container {
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  max-width: 1140px;
+  margin-bottom: 150px;
+}
+.body_content_temp4_container-box {
+  background-image: url(https://sun-asterisk.vn/wp-content/uploads/2020/11/career-bg.jpg);
+  position: relative;
+  color: #fff;
+  border-radius: 16px;
+  padding: 0 5%;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+.body_content_temp4_container-box::after {
+  content: "";
+  position: absolute;
+  background-color: #ef3f45;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  top: 75px;
+  left: 75px;
+  z-index: 0;
+}
+.body_content_temp4_container-box::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(192, 17, 17, 0.9);
+  z-index: 0;
+  border-radius: 16px;
+}
+.temp4-title1 {
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 100px;
+  color: #fff;
+}
+.temp4-title1::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #d82329;
+  top: 46px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.temp4-title2 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 1;
+}
+.temp4-title3 {
+  position: relative;
+  z-index: 1;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.temp4-title4 {
+  position: relative;
+  z-index: 1;
+  font-size: 24px;
+  margin-bottom: 70px;
+}
+.temp4-title5{
+    display: block;
+    width: 406px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #c01111;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px 0px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.temp4-title5:hover{
+    background-color: #2b3441;
+    color: #fff;
+}

@@ -1,0 +1,76 @@
+.body_content_temp5 {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 160px;
+}
+.body_content_temp5_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.body_content_temp5_container-box1 {
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+.t5-b1-header {
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 700;
+  font-style: normal;
+  color: #2b3441;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.t5-b1-decription {
+  width: 100%;
+  position: relative;
+}
+.t5-b1_detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.t5-b1_detail__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 6px solid #f9f9f9;
+  margin-right: 27px;
+}
+.t5-b1_detail__icon-check{
+    background-color: #c01111;
+    position: relative;
+    left: -3px;
+    top: -3px;
+    -webkit-mask-image: url(https://sun-asterisk.vn/wp-content/themes/starter/assets/images/icon-check.svg);
+    mask-image: url(https://sun-asterisk.vn/wp-content/themes/starter/assets/images/icon-check.svg);
+    width: 50px;
+    height: 40px
+}
+.t5-b1-decription_menu{
+    padding: 0;
+}
+.body_content_temp5_container-box2 {
+  width: 50%;
+  display: flex;
+  margin-top: 65px;
+  position: relative;
+}
+.t5-b2-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+    position: relative;
+}
+.temp5-box2_link{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
