@@ -90,3 +90,9 @@
 .temp5-box2_link-ct:hover {
   background-color: #c01111;
 }
+@media screen and (max-width: 777px){
+  .body_content_temp5_container{
+    display: block;
+    margin-left: 100px;
+  }
+}

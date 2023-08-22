@@ -100,3 +100,15 @@
   width: 40px;
     height: 40px;
 }
+@media screen and (max-width: 1668px) and (min-width: 1024px)  {
+  .footer {
+    margin-left: 100.5px;
+    margin-right: 100.5px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 0px) {
+  .footer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
