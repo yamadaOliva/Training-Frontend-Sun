@@ -142,3 +142,9 @@ p{
     position: absolute;
     top: 20px;
 }
+@media screen and (max-width: 777px){
+  .body_content_temp3_container{
+    display: block;
+    margin-left:100px ;
+  }
+}

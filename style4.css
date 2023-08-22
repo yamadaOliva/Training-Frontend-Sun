@@ -92,3 +92,12 @@
   font-size: 14px;
   text-decoration: none;
 }
+@media screen and (max-width: 777px){
+  .t6_content_container{
+    display: block;
+    margin-left: 100px;
+  }
+  .t6_content_container-box{
+    width: 50%;
+  }
+}
